@@ -4,12 +4,13 @@ body {
 
 h1 {
     text-align: center;
-    color: darkgray;
+    /*color: darkgray;*/
 }
 .container {
     width: 900px;
-    height: 404px;
-    background: yellowgreen;
+    height: 400px;
+    /*background: yellowgreen;*/
+    box-sizing: border-box;
     margin: 0 auto;
     padding-left: 10px;
     padding-right: 10px;
@@ -18,10 +19,10 @@ h1 {
     align-items: center;
 }
 
-.first_block {
+.block {
     width: 200px;
     height: 400px;
-    background: yellow;
+    /*background: yellow;*/
     border: 2px solid silver;
     display: flex;
     justify-content: space-between;
@@ -31,8 +32,7 @@ h1 {
 i {
     width: 200px;
     height: 50px;
-    background: blue;
-    /*padding-bottom: 50px;*/
+    padding-bottom: 50px;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -56,7 +56,7 @@ i {
     align-items: center;
     box-sizing: border-box;
     font-size: 1.1em;
-    background: lightblue;
+    /*background: lightblue;*/
     color: coral;
     /*margin-top: 20px;*/
 }
@@ -64,7 +64,7 @@ i {
 .text {
     width: 200px;
     height: 140px;
-    background: darkgreen;
+    /*background: darkgreen;*/
     color: dimgray;
     box-sizing: border-box;
     text-align: center;
@@ -77,7 +77,7 @@ i {
 .button_main {
     width: 200px;
     height: 100px;
-    background: lightblue;
+    /*background: lightblue;*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,7 +86,7 @@ i {
 button {
     width: 100px;
     height: 30px;
-    background: darkslategrey;
+    /*background: darkslategrey;*/
     color: white;
     display: flex;
     justify-content: center;
@@ -96,16 +96,16 @@ button {
 }
 
 
-.second_block {
-    width: 200px;
-    height: 400px;
-    background: yellow;
-    border: 2px solid silver;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
-}
+/*.second_block {*/
+/*    width: 200px;*/
+/*    height: 400px;*/
+/*    background: yellow;*/
+/*    border: 2px solid silver;*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*}*/
 
 i {
     width: 200px;
@@ -127,21 +127,21 @@ i {
     align-items: flex-end;
 }
 
-.third_block {
-    width: 200px;
-    height: 400px;
-    background: yellow;
-    border: 2px solid silver;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
-}
+/*.third_block {*/
+/*    width: 200px;*/
+/*    height: 400px;*/
+/*    background: yellow;*/
+/*    border: 2px solid silver;*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*}*/
 
 i {
     width: 200px;
     height: 50px;
-    background: blue;
+    /*background: blue;*/
     /*padding-bottom: 50px;*/
     box-sizing: border-box;
     display: flex;
@@ -158,22 +158,22 @@ i {
     align-items: flex-end;
 }
 
- .fourth_block {
-     width: 200px;
-     height: 400px;
-     background: yellow;
-     /*padding-right: 10px;*/
-     border: 2px solid silver;
-     display: flex;
-     justify-content: space-between;
-     flex-direction: column;
-     align-items: center;
- }
+ /*.fourth_block {*/
+ /*    width: 200px;*/
+ /*    height: 400px;*/
+ /*    background: yellow;*/
+ /*    !*padding-right: 10px;*!*/
+ /*    border: 2px solid silver;*/
+ /*    display: flex;*/
+ /*    justify-content: space-between;*/
+ /*    flex-direction: column;*/
+ /*    align-items: center;*/
+ /*}*/
 
 i {
     width: 200px;
     height: 50px;
-    background: blue;
+    /*background: blue;*/
     /*padding-bottom: 50px;*/
     box-sizing: border-box;
     display: flex;
