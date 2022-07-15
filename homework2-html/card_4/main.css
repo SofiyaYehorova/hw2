@@ -1,7 +1,7 @@
 .container {
     width: 900px;
     height: 500px;
-
+    margin: 0 auto;
     background: mediumseagreen;
     box-sizing: border-box;
     padding: 40px;

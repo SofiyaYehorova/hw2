@@ -1,0 +1,108 @@
+.wrap {
+    width: 100vw;
+    height: 100vh;
+    background: pink;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.a {
+    width: 100%;
+    height: 30%;
+    background: purple;
+    border-radius: 25px;
+}
+
+.container {
+    width: 100%;
+    height: 70%;
+    background: yellow;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+.big_box {
+    width: 65%;
+    height: 75%;
+    background: grey;
+    display: flex;
+
+    flex-direction:column;
+    gap: 10px;
+
+}
+.b {
+    width: 100%;
+    height: 50%;
+    background: darkgreen;
+    border-radius: 15px;
+    display: flex;
+
+
+}
+
+.small_box {
+    width: 100%;
+    height: 50%;
+    background: salmon;
+    display: flex;
+    gap: 10px;
+    /*justify-content: space-between;*/
+    /*align-content: center;*/
+}
+
+.box{
+    width: 100%;
+    height: 100%;
+    background: black;
+    border-radius: 10px;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+
+}
+
+.f {
+    width: 30%;
+    height: 75%;
+    background: lightblue;
+    border-radius: 25px;
+    display: flex;
+}
+
+@media screen and (min-width: 800px) and (max-width:1200px) {
+    .a {
+        height: 20%;
+    }
+    .container {
+        width: 100%;
+        height: 80%;
+        flex-direction: column;
+    }
+    .big_box {
+        width: 100%;
+        height: 70%;
+    }
+
+    .small_box {
+        width: 100%;
+        height: 30%;
+
+    }
+    /*.box {*/
+    /*    width: 20%;*/
+    /*    height: 20%;*/
+    /*    display: flex;*/
+    /*    justify-content: space-around;*/
+
+    /*}*/
+
+    .f {
+        width: 100%;
+        height: 20%;
+    }
+}
