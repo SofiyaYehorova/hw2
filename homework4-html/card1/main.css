@@ -1,0 +1,95 @@
+
+.container {
+    width: 100vw;
+    height: 900px;
+    background: yellow;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+
+    .father {
+    flex-direction: column;
+        gap: 10px;
+}
+    .father.b {
+    width: 100%;
+    }
+
+    .father.c {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 899px) {
+    .father {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .b {
+        width: 100%;
+    }
+    .c {
+        width: 100%;
+        background: purple;
+    }
+}
+
+
+.a {
+    width: 80vw;
+    height: 300px;
+    background: green;
+    border-radius: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+
+}
+
+.father {
+    width: 80vw;
+    height: 500px;
+    /*background: dodgerblue;*/
+
+    display:flex;
+    /*flex-direction: row;*/
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.father .b {
+    width: 70%;
+    height: 90%;
+    background: pink;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+
+}
+
+.father .c {
+    width: 25%;
+    height: 90%;
+    background: grey;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+
+}
+
