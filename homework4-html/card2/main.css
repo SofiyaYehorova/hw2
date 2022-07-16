@@ -1,7 +1,7 @@
 .wrap {
     width: 100vw;
     height: 100vh;
-    background: pink;
+    /*background: pink;*/
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -17,8 +17,8 @@
 
 .container {
     width: 100%;
-    height: 70%;
-    background: yellow;
+    height: 700px;
+    /*background: yellow;*/
     border-radius: 25px;
     display: flex;
     justify-content: space-between;
@@ -28,8 +28,8 @@
 }
 .big_box {
     width: 65%;
-    height: 75%;
-    background: grey;
+    height: 500px;
+    /*background: grey;*/
     display: flex;
 
     flex-direction:column;
@@ -38,7 +38,7 @@
 }
 .b {
     width: 100%;
-    height: 50%;
+    height: 300px;
     background: darkgreen;
     border-radius: 15px;
     display: flex;
@@ -48,22 +48,22 @@
 
 .small_box {
     width: 100%;
-    height: 50%;
-    background: salmon;
+    height: 200px;
+    /*background: salmon;*/
     display: flex;
-    gap: 10px;
-    /*justify-content: space-between;*/
-    /*align-content: center;*/
+    column-gap: 30px;
+    justify-content: space-around;
+    align-content: center;
 }
 
 .box{
-    width: 100%;
-    height: 100%;
+    width: 150px;
+    height: 150px;
     background: black;
     border-radius: 10px;
-    /*display: flex;*/
-    /*justify-content: space-between;*/
-
+    display: flex;
+    justify-content: space-around;
+align-items: center;
 }
 
 .f {
@@ -93,13 +93,13 @@
         height: 30%;
 
     }
-    /*.box {*/
-    /*    width: 20%;*/
-    /*    height: 20%;*/
-    /*    display: flex;*/
-    /*    justify-content: space-around;*/
-
-    /*}*/
+    .box {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+align-items: center;
+    }
 
     .f {
         width: 100%;
